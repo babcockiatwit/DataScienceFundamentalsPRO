@@ -39,7 +39,7 @@ __your-branch-name | describe your branch.__
 Add additional details in the description.
 
 
-##.5 Have a little party :tada:
+## 5. Have a little party :tada:
 
 Then reach out to your merge reviewer 
 
