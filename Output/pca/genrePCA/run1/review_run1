@@ -1,0 +1,94 @@
+pop
+
+===== POP =====
+Samples: 515
+Explained variance ratio:
+  PC1: 0.1900
+  PC2: 0.1080
+  PC3: 0.0997
+  PC4: 0.0812
+  PC5: 0.0782
+  Cumulative (first 2 PCs): 0.2980
+rock
+
+===== ROCK =====
+Samples: 344
+Explained variance ratio:
+  PC1: 0.1687
+  PC2: 0.1311
+  PC3: 0.0909
+  PC4: 0.0824
+  PC5: 0.0793
+  Cumulative (first 2 PCs): 0.2998
+jazz
+
+===== JAZZ =====
+Samples: 146
+Explained variance ratio:
+  PC1: 0.1965
+  PC2: 0.1316
+  PC3: 0.1036
+  PC4: 0.0902
+  PC5: 0.0711
+  Cumulative (first 2 PCs): 0.3281
+classical
+
+===== CLASSICAL =====
+Samples: 121
+Explained variance ratio:
+  PC1: 0.2401
+  PC2: 0.1589
+  PC3: 0.0887
+  PC4: 0.0837
+  PC5: 0.0799
+  Cumulative (first 2 PCs): 0.3989
+hip-hop
+
+===== HIP-HOP =====
+Samples: 395
+Explained variance ratio:
+  PC1: 0.1378
+  PC2: 0.1215
+  PC3: 0.1047
+  PC4: 0.0852
+  PC5: 0.0817
+  Cumulative (first 2 PCs): 0.2593
+afrobeats
+
+===== AFROBEATS =====
+Samples: 82
+Explained variance ratio:
+  PC1: 0.2635
+  PC2: 0.1422
+  PC3: 0.1022
+  PC4: 0.0920
+  PC5: 0.0806
+  Cumulative (first 2 PCs): 0.4057
+latin
+
+===== LATIN =====
+Samples: 425
+Explained variance ratio:
+  PC1: 0.2052
+  PC2: 0.0992
+  PC3: 0.0860
+  PC4: 0.0843
+  PC5: 0.0781
+  Cumulative (first 2 PCs): 0.3044
+indian
+
+===== INDIAN =====
+Samples: 57
+Explained variance ratio:
+  PC1: 0.2900
+  PC2: 0.1501
+  PC3: 0.0971
+  PC4: 0.0878
+  PC5: 0.0786
+  Cumulative (first 2 PCs): 0.4401
+
+  Error when country did not have enough representation nRow=11 nFeature=14.
+  New run where nFeature=2
+
+
+  It is obvious that genre analysis provides significantly different results on impactful measures and serious variance from the agregate is evident. 

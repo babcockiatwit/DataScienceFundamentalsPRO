@@ -1,0 +1,278 @@
+===== POP =====
+Samples: 515
+Explained variance ratio:
+  PC1: 0.1900
+  PC2: 0.1080
+  Cumulative (first 2 PCs): 0.2980
+rock
+
+===== ROCK =====
+Samples: 344
+Explained variance ratio:
+  PC1: 0.1687
+  PC2: 0.1311
+  Cumulative (first 2 PCs): 0.2998
+jazz
+
+===== JAZZ =====
+Samples: 146
+Explained variance ratio:
+  PC1: 0.1965
+  PC2: 0.1316
+  Cumulative (first 2 PCs): 0.3281
+classical
+
+===== CLASSICAL =====
+Samples: 121
+Explained variance ratio:
+  PC1: 0.2401
+  PC2: 0.1589
+  Cumulative (first 2 PCs): 0.3989
+hip-hop
+
+===== HIP-HOP =====
+Samples: 395
+Explained variance ratio:
+  PC1: 0.1378
+  PC2: 0.1215
+  Cumulative (first 2 PCs): 0.2593
+afrobeats
+
+===== AFROBEATS =====
+Samples: 82
+Explained variance ratio:
+  PC1: 0.2635
+  PC2: 0.1422
+  Cumulative (first 2 PCs): 0.4057
+latin
+
+===== LATIN =====
+Samples: 425
+Explained variance ratio:
+  PC1: 0.2052
+  PC2: 0.0992
+  Cumulative (first 2 PCs): 0.3044
+indian
+
+===== INDIAN =====
+Samples: 57
+Explained variance ratio:
+  PC1: 0.2900
+  PC2: 0.1501
+  Cumulative (first 2 PCs): 0.4401
+country
+
+===== COUNTRY =====
+Samples: 11
+Explained variance ratio:
+  PC1: 0.2995
+  PC2: 0.2784
+  Cumulative (first 2 PCs): 0.5779
+RnB
+
+===== RNB =====
+Samples: 50
+Explained variance ratio:
+  PC1: 0.2503
+  PC2: 0.1311
+  Cumulative (first 2 PCs): 0.3815
+electronic
+
+===== ELECTRONIC =====
+Samples: 589
+Explained variance ratio:
+  PC1: 0.3209
+  PC2: 0.0916
+  Cumulative (first 2 PCs): 0.4125
+soul
+
+===== SOUL =====
+Samples: 44
+Explained variance ratio:
+  PC1: 0.2364
+  PC2: 0.1248
+  Cumulative (first 2 PCs): 0.3612
+gaming
+
+===== GAMING =====
+Samples: 133
+Explained variance ratio:
+  PC1: 0.3513
+  PC2: 0.0998
+  Cumulative (first 2 PCs): 0.4511
+j-pop
+
+===== J-POP =====
+Samples: 23
+Explained variance ratio:
+  PC1: 0.2390
+  PC2: 0.1757
+  Cumulative (first 2 PCs): 0.4147
+metal
+
+===== METAL =====
+Samples: 49
+Explained variance ratio:
+  PC1: 0.2246
+  PC2: 0.1433
+  Cumulative (first 2 PCs): 0.3679
+reggae
+
+===== REGGAE =====
+Samples: 24
+Explained variance ratio:
+  PC1: 0.2288
+  PC2: 0.1684
+  Cumulative (first 2 PCs): 0.3972
+k-pop
+
+===== K-POP =====
+Samples: 17
+Explained variance ratio:
+  PC1: 0.2296
+  PC2: 0.1914
+  Cumulative (first 2 PCs): 0.4210
+arabic
+
+===== ARABIC =====
+Samples: 208
+Explained variance ratio:
+  PC1: 0.2626
+  PC2: 0.1144
+  Cumulative (first 2 PCs): 0.3770
+punk
+
+===== PUNK =====
+Samples: 74
+Explained variance ratio:
+  PC1: 0.2259
+  PC2: 0.1364
+  Cumulative (first 2 PCs): 0.3623
+blues
+
+===== BLUES =====
+Samples: 88
+Explained variance ratio:
+  PC1: 0.2331
+  PC2: 0.1515
+  Cumulative (first 2 PCs): 0.3846
+folk
+
+===== FOLK =====
+Samples: 68
+Explained variance ratio:
+  PC1: 0.1983
+  PC2: 0.1479
+  Cumulative (first 2 PCs): 0.3462
+lofi
+
+===== LOFI =====
+Samples: 299
+Explained variance ratio:
+  PC1: 0.1920
+  PC2: 0.1037
+  Cumulative (first 2 PCs): 0.2958
+brazilian
+
+===== BRAZILIAN =====
+Samples: 148
+Explained variance ratio:
+  PC1: 0.1967
+  PC2: 0.1225
+  Cumulative (first 2 PCs): 0.3192
+turkish
+
+===== TURKISH =====
+Samples: 71
+Explained variance ratio:
+  PC1: 0.1703
+  PC2: 0.1200
+  Cumulative (first 2 PCs): 0.2903
+ambient
+
+===== AMBIENT =====
+Samples: 359
+Explained variance ratio:
+  PC1: 0.3931
+  PC2: 0.1053
+  Cumulative (first 2 PCs): 0.4984
+korean
+
+===== KOREAN =====
+Samples: 34
+Explained variance ratio:
+  PC1: 0.2633
+  PC2: 0.1375
+  Cumulative (first 2 PCs): 0.4008
+world
+
+===== WORLD =====
+Samples: 228
+Explained variance ratio:
+  PC1: 0.2781
+  PC2: 0.1048
+  Cumulative (first 2 PCs): 0.3829
+indie
+
+===== INDIE =====
+Samples: 17
+Explained variance ratio:
+  PC1: 0.2480
+  PC2: 0.1934
+  Cumulative (first 2 PCs): 0.4414
+mandopop
+
+===== MANDOPOP =====
+Samples: 14
+Explained variance ratio:
+  PC1: 0.2984
+  PC2: 0.2716
+  Cumulative (first 2 PCs): 0.5700
+cantopop
+
+===== CANTOPOP =====
+Samples: 27
+Explained variance ratio:
+  PC1: 0.2851
+  PC2: 0.1524
+  Cumulative (first 2 PCs): 0.4375
+wellness
+
+===== WELLNESS =====
+Samples: 80
+Explained variance ratio:
+  PC1: 0.1498
+  PC2: 0.1220
+  Cumulative (first 2 PCs): 0.2718
+gospel
+
+===== GOSPEL =====
+Samples: 39
+Explained variance ratio:
+  PC1: 0.2121
+  PC2: 0.1873
+  Cumulative (first 2 PCs): 0.3994
+funk
+
+===== FUNK =====
+Samples: 28
+Explained variance ratio:
+  PC1: 0.1824
+  PC2: 0.1564
+  Cumulative (first 2 PCs): 0.3388
+soca
+
+===== SOCA =====
+Samples: 14
+Explained variance ratio:
+  PC1: 0.2604
+  PC2: 0.1776
+  Cumulative (first 2 PCs): 0.4381
+disco
+
+===== DISCO =====
+Samples: 9
+Explained variance ratio:
+  PC1: 0.3794
+  PC2: 0.1846
+  Cumulative (first 2 PCs): 0.5639

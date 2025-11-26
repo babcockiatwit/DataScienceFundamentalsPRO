@@ -21,10 +21,34 @@ spotify_data = pd.concat([high_popularity, low_popularity], ignore_index=True)
 
 # keep only numbers with track name as index
 track_names = spotify_data['track_name']
+genre = spotify_data['playlist_genre']
 spotify_data_numerics = spotify_data.select_dtypes(include='number')
+spotify_data_numerics.index = genre
 spotify_data_numerics.index = track_names
 
-# impute mean for nan values
+
+def pca_create(data):
+    # impute mean for nan values
+    imputer = SimpleImputer(strategy='mean')
+    imputed_data = imputer.fit_transform(data)
+
+    # standardize the data
+    # high_pop_normal = high_pop_numerics.apply(lambda x: (x - x.mean()) / x.std())
+    scaler = StandardScaler()
+    normal_data = scaler.fit_transform(imputed_data)
+
+    # Initialize PCA with 2 components
+    pca = PCA(n_components=normal_data.shape[1])
+
+    # Fit PCA to the scaled data
+    pca.fit(normal_data)
+
+    X_pca = pca.transform(normal_data)
+
+    
+
+
+ # impute mean for nan values
 imputer = SimpleImputer(strategy='mean')
 spotify_imputed = imputer.fit_transform(spotify_data_numerics)
 
@@ -33,6 +57,16 @@ spotify_imputed = imputer.fit_transform(spotify_data_numerics)
 scaler = StandardScaler()
 spotify_data_normal = scaler.fit_transform(spotify_imputed)
 
+# Initialize PCA with 2 components
+pca = PCA(n_components=spotify_data_normal.shape[1])
+
+# Fit PCA to the scaled data
+pca.fit(spotify_data_normal)
+
+X_pca = pca.transform(spotify_data_normal)
+
+
+#Data Description
 print("Imputed and scaled shape:", spotify_data_normal.shape)
 
 print("Numeric features:")
@@ -41,14 +75,6 @@ print(spotify_data_numerics.tail(5))
 
 print("Number of features")
 print(spotify_data_normal.shape[1])
-
-# Initialize PCA with 2 components
-pca = PCA(n_components=spotify_data_normal.shape[1])
-
-# Fit PCA to the scaled data
-pca.fit(spotify_data_normal)
-
-X_pca = pca.transform(spotify_data_normal)
 
 print(f"Explained variance ratio: {pca.explained_variance_ratio_}")
 print(f"Cumulative explained variance: {np.sum(pca.explained_variance_ratio_)}")
