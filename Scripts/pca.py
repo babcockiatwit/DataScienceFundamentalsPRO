@@ -81,6 +81,26 @@ print(f"Cumulative explained variance: {np.sum(pca.explained_variance_ratio_)}")
 
 print(f"Principal components: \n{pca.components_}")
 
+# V = eigenvectors
+V = pca.components_.T
+
+# Λ = eigenvalues on diagonal
+Lambda = np.diag(pca.explained_variance_)
+
+# covariance that PCA learned
+cov_pca = V @ Lambda @ V.T
+
+cov_pca_df = pd.DataFrame(cov_pca, index=spotify_data_numerics.columns, columns=spotify_data_numerics.columns)
+print("Covariance matrix learned by PCA:")
+print(cov_pca_df)
+
+cov_pca_df.to_csv("covariance_matrix.txt", sep="\t")
+with open("covariance_matrix.txt", "w") as f:
+    f.write(cov_pca_df.to_string())
+
+
+
+
 plt.scatter(X_pca[:, 0], X_pca[:, 1])
 plt.xlabel('Principal Component 1')
 plt.ylabel('Principal Component 2')
